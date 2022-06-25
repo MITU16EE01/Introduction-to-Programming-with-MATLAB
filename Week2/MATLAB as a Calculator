@@ -1,1 +1,4 @@
-debt = 1000*(1.1)^2
+principal = 1000;
+alpha = 0.1;
+debt = principal * (1 + alpha) ^ 2;
+disp(debt);
