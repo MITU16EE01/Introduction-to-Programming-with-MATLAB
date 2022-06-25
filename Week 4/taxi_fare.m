@@ -1,3 +1,3 @@
-function a = tri_area(b, h)
-    a = 0.5 * b * h;
+function fare = taxi_fare(distance, time)
+    fare = 5 + 2 * (ceil(distance) - 1) + 0.25 * ceil(time);
 end
